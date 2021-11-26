@@ -1,0 +1,38 @@
+.btn {
+  display: inline-block;
+  border-radius: 6px;
+  font-size: inherit;
+  color: #fff;
+  transition: 100ms linear;
+  padding: 10px 30px;
+  margin-top: 1.5rem;
+
+  &:hover, 
+  &:visited, 
+  &:focus {
+    background-color: var(--color-btn-hover);
+    color: white;
+  }
+}
+
+.btn-primary {
+  background-color: var(--color-blue);
+}
+
+.btn-outline {
+  border: 1px solid var(--color-blue);
+}
+
+.btn-white {
+  background-color: white;
+  border-color: white;
+}
+
+.btn-lg {
+  line-height: 1.11;
+  padding: 18px 30px;
+}
+
+.btn-wrap {
+  display: inline-block;
+}

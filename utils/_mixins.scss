@@ -1,0 +1,36 @@
+@mixin min-sm {
+  @media (min-width: $bp-sm) {
+      @content;
+  }
+}
+
+@mixin min-md {
+  @media (min-width: $bp-md) {
+      @content;
+  }
+}
+
+@mixin min-lg {
+  @media (min-width: $bp-lg) {
+      @content;
+  }
+}
+
+@mixin min-xl {
+  @media (min-width: $bp-xl) {
+      @content;
+  }
+}
+
+@mixin min-xxl {
+  @media (min-width: $bp-xxl) {
+      @content;
+  }
+}
+
+// Custom Breakpoint
+@mixin min-custom($bp) {
+  @media (min-width: $bp+'px') {
+      @content;
+  }
+}
